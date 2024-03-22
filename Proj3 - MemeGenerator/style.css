@@ -1,0 +1,34 @@
+.memeGenerator{
+    font-family: "Roboto", sans-serif; /* Set the font family for the meme generator */
+    text-align: center; /* Center align text content within the meme generator */
+}
+
+.memeGenerator img{
+    height: 450px; /* Set the height of the meme image */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.memeGenerator .generate-meme-button
+{
+    padding: 10px 20px; /* Padding for the generate meme button */
+    border: none; /* Remove border from the button */
+    border-left: 4px solid #222; /* Add left border with a solid color */
+    border-right: 4px solid #222; /* Add right border with a solid color */
+    margin: 24px 0; /* Margin for spacing around the button */
+    font-size: 30px; /* Set the font size of the button text */
+    color: #f64d4d; /* Set the color of the button text */
+    background: #fff; /* Set the background color of the button */
+    cursor: pointer; /* Set cursor style to pointer */
+    transition: all 400ms ease-in-out; /* Add transition effect for smooth hover */
+}
+
+.memeGenerator .generate-meme-button:hover{
+    padding: 8px 36px; /* Adjust padding on hover for the button */
+    border-left: 8px solid #222; /* Adjust left border on hover */
+    border-right: 8px solid #222; /* Adjust right border on hover */
+    letter-spacing: 5px; /* Adjust letter spacing on hover */
+}
+
+.memeGenerator .meme-owner{
+    margin: 6px; /* Set margin for meme owner details */
+}

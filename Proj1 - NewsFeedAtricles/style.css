@@ -1,0 +1,123 @@
+/* CSS Styling */
+
+/* Adjust the spacing between blog cards */
+.blog-card {
+    margin-right: 20px;
+}
+
+/* Remove margin from the last blog card to prevent extra space */
+.blog-card:last-child {
+    margin-right: 0;
+}
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #2d4c50; 
+    box-shadow: 0 7px 10px rgba(0,0,0,0.3);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 0;
+}
+
+.navbar .logo {
+    color: #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#search-input {
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #333;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #138605;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* Main section styles */
+#blog-container {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Individual blog card styles */
+.blog-card {
+    width: 280px;
+    border: 1px solid #2d4c50;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px; 
+}
+
+.blog-card img {
+    width : 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.blog-card h2 {
+    color: #141414;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.blog-card p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+/* Hover effect on blog cards */
+.blog-card:hover {
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive styles */
+@media(max-width: 500px) {
+    nav {
+        padding: 0 20px;
+    }
+    
+    .navbar .logo {
+        font-size: 1.8rem;
+    }
+
+    .blog-card{
+        width: 100%;
+    }
+
+    /* Adjust search input width */
+    #search-input {
+        max-width: 150px;
+        padding: 10px 10px;
+    }
+}

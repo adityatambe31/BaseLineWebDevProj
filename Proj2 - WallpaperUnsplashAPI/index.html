@@ -1,25 +1,37 @@
+<!-- HTML Structure -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title and CSS stylesheet -->
     <title>Project 2 - Image Search Engine</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Main heading -->
     <h1>Image Search Web-App</h1>
 
+    <!-- Search form -->
     <form action="">
+        <!-- Input field for search -->
         <input type="text" name="search" id="search-input" placeholder="Search images">
+        <!-- Search button -->
         <button id="search-button">Search</button>
     </form>
 
+    <!-- Container for search results -->
     <div class="search-results">
 
+         <!-- Individual search result -->
         <div class="search-result">
+            <!-- Image -->
             <img src="https://wallpapercave.com/uwp/uwp4312334.webp" alt="Mountain with night sky ">
+
+            <!-- Image link -->
             <a href="https://wallpapercave.com/w/uwp4312334" target="_blank">Mountain with night sky</a>
         </div>
         
@@ -35,7 +47,9 @@
 
     </div>
 
+    <!-- Button to load more images -->
     <button id="load-more-button">Load More</button>
+    <!-- JavaScript file -->
     <script src="script.js"> </script>
 </body>
 </html>
